@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    
+}
+
+#boxMinHand{
+    width: 2px;
+    position: absolute;
+    height: 195px;
+    margin-left: 5px;
+    top: 164px;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    align-items: center;
+    transform-origin: bottom;
+    /* transform: rotate(60deg); */
+}
+
+#boxHourHand {
+    width: 4px;
+    position: absolute;
+    height: 140px;
+    top: 218px;
+    margin-left: 5px;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    align-items: center;
+    transform-origin: bottom;
+    /* transform: rotate(156deg); */
+}
+
+
+#boxSecondHand{
+    width: 2.5px;
+    position: absolute;
+    height: 210px;
+    top: 153px;
+    margin-left: 5px;
+    background-color: black;
+    border-radius: 4px;
+    align-items: center;
+    transform-origin: bottom;
+    /* transform: rotate(279deg); */
+}
+
+#clockImg{
+    position: relative;
+    
+}
